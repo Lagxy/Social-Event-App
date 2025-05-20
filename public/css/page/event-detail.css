@@ -1,0 +1,22 @@
+@import url("../style.css");
+
+#event-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    .event-interaction {
+        justify-content: start;
+
+        .join-btn {
+            width: fit-content;
+        }
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+}

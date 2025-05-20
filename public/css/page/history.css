@@ -1,0 +1,25 @@
+@import url("../style.css");
+
+#history {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .event-history {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+
+        .event-thumbnail {
+            aspect-ratio: 16/9;
+            background-color: var(--color-grey-primary);
+        }
+
+        .history-detail {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0.5rem;
+        }
+    }
+}

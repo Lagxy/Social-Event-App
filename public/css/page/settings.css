@@ -1,0 +1,36 @@
+@import url("../style.css");
+
+#settings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    .account-settings-list {
+        display: flex;
+        flex-direction: column;
+        /* padding: 0.5rem; */
+
+        li:last-of-type button {
+            width: fit-content;
+            color: red;
+        }
+
+        li button {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        li:not(:last-of-type) button:hover {
+            background-color: var(--color-grey-secondary);
+        }
+
+        li:last-of-type button:hover {
+            font-weight: bold;
+        }
+    }
+}

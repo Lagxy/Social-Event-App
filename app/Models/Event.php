@@ -2,10 +2,9 @@
 
 namespace App\Models;
 
-class Event {
-    public static function all(){
+use Illuminate\Database\Eloquent\Model;
 
-    }
+class Event extends Model
+{
+    //
 }
-
-?>
