@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SE Project</title>
+    <title>SocialEve</title>
     <link rel="stylesheet" href="{{ asset('css/page/help.css') }}">
 </head>
 <body>
@@ -20,7 +20,7 @@
                         <ul class="help-list" role="list">
                             <li>
                                 <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p>How to create an Account?</p>
                                     <img
                                         class="icon"
                                         src="../assets/icons/arrow.png"
@@ -30,7 +30,7 @@
                             </li>
                             <li>
                                 <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p>How to join an event?</p>
                                     <img
                                         class="icon"
                                         src="../assets/icons/arrow.png"
@@ -40,137 +40,7 @@
                             </li>
                             <li>
                                 <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <img
-                                        class="icon"
-                                        src="../assets/icons/arrow.png"
-                                        alt="arrow icon"
-                                    />
-                                </button>
-                            </li>
-                            <li>
-                                <button>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p>How to create an event?</p>
                                     <img
                                         class="icon"
                                         src="../assets/icons/arrow.png"

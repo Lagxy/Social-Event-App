@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SE Project</title>
+    <title>SocialEve</title>
     <link rel="stylesheet" href="{{ asset('css/page/home.css') }}">
 </head>
 <body>
@@ -16,14 +16,9 @@
             <div class="app-outer">
                 <div id="app">
                     <section id="home">
-                        <x-event />
-                        <x-event />
-                        <x-event />
-                        <x-event />
-                        <x-event />
-                        <x-event />
-                        <x-event />
-                        <x-event />
+                        @foreach ($events as $event)
+                            <x-event :event="$event" />
+                        @endforeach
                     </section>
                 </div>
             </div>

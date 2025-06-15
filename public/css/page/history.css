@@ -11,6 +11,9 @@
         gap: 1rem;
 
         .event-thumbnail {
+            width: 100%;
+            object-fit: cover;
+            overflow: hidden;
             aspect-ratio: 16/9;
             background-color: var(--color-grey-primary);
         }

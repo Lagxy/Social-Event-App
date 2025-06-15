@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
+            $table->string('image_path')->nullable();
             $table->string('title');
             $table->string('description');
             $table->string('location');

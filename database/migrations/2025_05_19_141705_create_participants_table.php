@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('participants', function (Blueprint $table) {
             $table->id();
-            $table->enum('status', ['registered', 'attended', 'canceled']);
+            $table->enum('status', ['registered', 'attended', 'cancelled']);
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->foreignId('event_id')->constrained('events')->onDelete('cascade');
             $table->timestamps();

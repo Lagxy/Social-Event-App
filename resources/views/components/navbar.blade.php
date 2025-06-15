@@ -39,17 +39,5 @@
                         <p>Create Event</p>
                     </a>
                 </li>
-                <li>
-                    <a href="/hosted">
-                        <img class="icon" src="{{ asset('assets/icons/calendar.png') }}" alt="calendar icon">
-                        <p>Hosted</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/manage">
-                        <img class="icon" src="{{ asset('assets/icons/edit.png') }}" alt="pencil icon">
-                        <p>Manage</p>
-                    </a>
-                </li>
             </ul>
         </nav>

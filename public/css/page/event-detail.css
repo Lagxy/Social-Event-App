@@ -19,4 +19,49 @@
         gap: 1rem;
         padding: 0.5rem;
     }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            padding: 0.25rem 1rem;
+            font-weight: 700;
+            border-radius: 24px;
+            color: var(--color-white-primary);
+        }
+
+        .join-btn {
+            background-color: var(--color-blue-primary);
+            border: 1px solid var(--color-blue-primary);
+        }
+
+        .cancel-btn {
+            background-color: var(--color-red-primary);
+            border: 1px solid var(--color-red-primary);
+        }
+    }
+
+    /* Edit button styling */
+    .event-actions {
+        margin-top: 10px;
+    }
+
+    .edit-btn {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .edit-btn:hover {
+        background-color: #45a049;
+    }
 }
